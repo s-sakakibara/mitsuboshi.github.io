@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><h1>健康管理ウェブサイト</h1></header>
+    <h1>京都橘大学　Cチーム</h1>
+    <h2>個人情報</h2>
+    <label for="name">名前</label>
+    <input type="text" id="name">
+    <script src="./health.js"></script>
+    <h3>ドロップダウンリスト</h3>
+    <label for="kg">体重</label>
+    <select id="kg">
+        <option>53</option>
+        <option>50</option>
+        <option>47</option>
+    </select>
+    <stoript src="health.js"></stoript>
+    <h4>チェックボックス</h4>
+    <fieldset>
+        <legend>何時間寝た？</legend>
+        <label><input type="checkbox">4時間</label>
+        <label><input type="checkbox">6時間</label>
+        <label><input type="checkbox">7時間</label>
+        <label><input type="checkbox">9時間</label>
+    </fieldset>
+    <h5>ToDorリスト入力</h5>
+    <label for="input">個人情報入力：</label>
+    <input type="text" id="input">
+    <button onclick="onButtonClick();">入力</button>
+    <ul id="todo-list"></ul>
+    <script src="./todo_action.js"></script>
+
+
+
+</body>
+</html>
